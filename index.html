@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GSK - Paxil CR</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/syle.css">
+</head>
+
+<body>
+    <div id="blueribbon" class="container-fluid">
+
+        <div id="mainarea">
+            <div class="row">
+                <div class="col-10">
+                    <div class="row">
+                        <span class="headline1">GSK le brinda un</span>
+                    </div>
+
+                    <div class="row">
+                        <span class="headline2">Descuento</span>
+                    </div>
+                    <div class="row">
+                        <span class="headline3">para que continúe con su tratamiento.</span>
+                    </div>
+                    <div class="row">
+                        <span class="headline5">Por la compra de:</span><br>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img class="img-fluid" src="img-general/gsk-logo.png" alt="gsk logo" id="logo_gsk">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-7">
+                    <img id="img_producto_logo" class="img-fluid fixpos">
+                </div>
+            </div>
+            <div class="row lightblue align-items-start">
+                <div class="col-12">
+                    <div class="row justify-content-center">
+                        <span class="promo1">le otorgamos</span>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-12 margin_mobile">
+                    <div class="row no-gutters align-items-start">
+                        <div class="col-12">
+                            <div class="row justify-content-center">
+                                <div class="row justify-content-center align-items-center">
+                                    <span class="promo2"></span>
+                                    <div class="w-100"></div>
+                                    <span class="promo3 promo-percent">%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="mainarea2">
+            <div class="row justify-content-center">
+                <div class="col-5 align-self-center">
+                    <img id="img_sello" class="img-fluid" src="img-general/SELLO-01.png">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="mainarea3" class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-6 condiciones text-light" id="area_cupones">
+                <!--Conditions Text-->
+                Este cupón es válido<br>
+                en su presentación:<br>
+                {productos_participantes}
+            </div>
+            <div class="col-6" id="area_cupones">
+                <div class="row justify-content-end">
+                    <div class="row justify-content-end">
+                        <div class="col-12 col-md-10 col-lg-8 col-xl-6 justify-content-end">
+                            <div class="even" style="font-size: 14px; margin-bottom: -3%;">
+                                <!--Cupon Code text-->
+                                <p>
+                                <h4>CANJEA TU CUPÓN</h4>
+                                ENTREGANDO ESTE CÓDIGO EN<br>
+                                TU FARMACIA DE PREFERENCIA
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-12 col-md-10 col-lg-8 col-xl-6 bgright justify-content-end">
+                            <div class="dataarea2">
+                                <p id="codigo" class="text-center" style="margin-top: 1.4rem;"> {codigo_cupon} </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div id="footerarea" class="row justify-content-center">
+            <div class="col-12 align-self-center">
+                <p class="disclaimer footer-bold">Presente el cupón con la receta correspondiente. Señor farmacéutico, asegúrese de conocer los requisitos para el reconocimiento de esta promoción antes de hacerla efectiva. Oferta válida hasta <!--Expiration Date-->{fecha_expiracion}.</p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-12 align-self-center">
+                <p class="disclaimer footer-light">Elaborado por GlaxoSmithKline Guatemala, S.A. Reporte de eventos adversos o quejas de producto contacte a GSK al correo electrónico fv.aecaricam@gsk.com o a los teléfonos Guatemala: (502)2376-1930. Oficinas GSK, Oceanía Business Plaza Torre 1000 piso 34. Panamá, República de Panamá, C.A. Derechos reservados para GSK. Este medicamento requiere receta médica. Todo medicamento posee efectos secundarios. Consulte a su médico. Este material fue desarrollado para ser descargado de la página juntosgsk.com y ser utilizado posterior a la prescripción. Este cupón no es transferible. Descuento no acumulable con otros cupones de GSK. Descuento no válido donde esté prohibido. NP-GT-PRX-COUP-210001. Aprobación: Enero 2022.</p>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+<script>
+    $(document).ready(function () {
+        /*INICIO DE VARIALES EDITABLES*/
+        /*Escriba entre las comillas la ruta del logo del producto*/
+        var url_img_logo_producto = "./img-producto/BuyProduct.png";
+        $("#img_producto_logo").attr("src", url_img_logo_producto);
+
+        /*Escriba entre las comillas la cantidad de Descuento*/
+        /*Descount Percent*/
+        var cantidad_Descuento = "20";
+        let flag = cantidad_Descuento.replace(/{/g, '').replace(/}/g, '');
+        if (flag === "descuento") {
+            $(".promo2").addClass("hidden_element");
+            $(".promo-percent").hide();
+        }
+        $(".promo2").text(cantidad_Descuento);
+        /*FIN DE VARIALES EDITABLES*/
+
+        resize();
+        $(window).resize(function () {
+            resize();
+        });
+    });
+
+    function resize() {
+        if ($(window).width() <= 355) {
+            $(".hide_mobile").hide();
+        } else {
+            $(".hide_mobile").show();
+        }
+    }
+</script>
+
+</html>

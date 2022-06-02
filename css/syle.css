@@ -1,0 +1,1257 @@
+@media only screen and (max-width: 3000px) {
+    #row_cantidad_cupon{
+        margin-top: 0%;
+    }
+
+    .hidden_element {
+        visibility: hidden;
+    }
+
+    .bgleft {
+        color: black;
+        display: block;
+        /*width: 100%;
+        height: 100%;*/
+        /*padding: 10px;*/
+        text-align: center;
+        background-image: url("../img-general/dataArea.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .bgright {
+        color: black;
+        display: block;
+        /*width: 100%;
+        height: 100%;*/
+        /*padding: 10px;*/
+        text-align: center;
+        background-image: url("../img-general/dataArea.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .show_mobile_coupons{
+        display: none;
+    }
+    .hide_mobile_coupons{
+        display: block;
+    }
+    .fixpos {
+        margin-bottom: 3%;
+        margin-top: 3%
+    }
+    #nota_sobre_cupon {
+      color: white;
+      text-align: left;
+        margin-top: -35%;
+        line-height: 1.2;
+        font-size: 24px;
+        /*padding-left: 20%;
+        padding-right: 20%;*/
+    }
+    #nota_light{
+        margin-top: -1%;
+        line-height: 1.2;
+        font-size: 16px;
+    }
+    .text-light {
+        font-family: Akzidenz-grotesk-light;
+    }
+    #blueribbon {
+        margin: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #logo_gsk{
+        margin-top: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
+     }
+
+    #row_title_compra_mobile{
+        display: none;
+    }
+    .headline1 {
+        font-size: 60px;
+        line-height: 100pt;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    .headline2{
+        text-transform: uppercase;
+        font-size: 100px;
+        font-weight: bold;
+        line-height: 30pt;
+        padding-top: 5pt;
+        padding-left: 10px;
+        margin-bottom: 1vw;
+    }
+
+    .headline3 {
+        font-size: 80px;
+        line-height: 60pt;
+        font-weight: 100;
+        padding-left: 10px;
+    }
+
+    .headline4 {
+        font-size: 80px;
+    }
+
+    .headline5 {
+        font-size: 60px;
+        line-height: 100%;
+        font-weight: bold;
+        padding-left: 10px;
+        margin-bottom: 3vw;
+    }
+
+    .promo1 {
+        color: white;
+        /*font-size: 300%;*/
+        font-size: 3.5vw;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 3%;
+        margin-left: 4vw;
+        margin-bottom: 1vw;
+    }
+
+    .promo2 {
+        color: white;
+        font-size: 20vw;
+        padding-right: 4vw;
+        /*font-size: 380px;*/
+        letter-spacing: -1vw;
+        font-weight: bold;
+        line-height: 100%;
+        -ms-transform: scaleY(1.6);
+        -moz-transform: scaleY(1.6);
+        -webkit-transform: scaleY(1.6);
+        -o-transform: scaleY(1.6);
+        margin-top: 5vw;   
+    }
+
+    .promo3 {
+        color: white;
+        font-weight: bold;
+        font-size: 200px;
+        line-height: 100%;
+        position: relative;
+        top: -25vw;
+        right: -11vw;
+    }
+    .promo4 {
+        color: white;
+        font-size: 2.5vw;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 4%;
+    }
+    .plus{
+        color: white;
+        font-size: 22vw;
+        font-weight: bold;
+        line-height: normal;
+    }
+    .nota_promo{
+        color: white;
+        font-weight: lighter;
+        font-size: 2.5vw;
+        margin-top: 7%;
+        margin-right: 7vw;
+        line-height: normal;
+        padding-bottom: 1vw;
+        align-items: flex-end;
+    }
+    #column-promo-logo{
+        margin-left: -8%;
+        margin-right: 7%;
+        margin-top: -5vw;
+    }
+    #footerarea {
+        line-height: 120%;
+        font-size: 18px;
+    }
+    #area_cupones{
+        margin-top: -12%;
+    }
+
+    .fixpos {
+        width: 100vw;
+    }
+
+    #mainarea2 {
+        height: 30vw;
+    }
+}
+@media only screen and (max-width: 1920px) {
+    .promo1 {
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .promo3 {
+        top: -26vw;
+        right: -11vw;
+    }
+
+}
+
+@media only screen and (max-width: 1750px) {
+    .promo1 {
+        /*font-size: 300%;*/
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .promo3 {
+        top: -24vw;
+        right: -11vw;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .promo1 {
+        /*font-size: 300%;*/
+        text-align: left;
+        font-weight: bold;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+    #nota_sobre_cupon {
+        line-height: 1.2;
+        /*padding-left: 12%;
+        padding-right: 12%;*/
+    }
+    #blueribbon {
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #logo_gsk{
+        margin-top: 20%;
+     }
+
+    #row_title_compra_mobile{
+        display: none;
+    }
+    .headline1 {
+        font-size: 60px;
+        line-height: 100pt;
+        padding-left: 10px;
+    }
+
+    .headline2{
+        text-transform: uppercase;
+        font-size: 90px;
+        font-weight: bold;
+        line-height: 20pt;
+        padding-left: 10px;
+        margin-bottom: 1vw;
+    }
+
+    .headline3 {
+        font-size: 40px;
+        line-height: 60pt;
+        font-weight: 100;
+        padding-left: 10px;
+    }
+
+    .headline4 {
+        font-size: 25px;
+    }
+
+    .headline5 {
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+    .promo1 {
+        text-align: left;
+    }
+
+
+    .promo3 {
+        color: white;
+        font-size: 150px;
+        line-height: 100%;
+        top: -26vw;
+        right: -11vw;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #nota_sobre_cupon {
+        line-height: 1.2;
+        /*padding-left: 12%;
+        padding-right: 12%;*/
+    }
+    #blueribbon {
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #logo_gsk{
+        margin-top: 20%;
+     }
+
+    #row_title_compra_mobile{
+        display: none;
+    }
+    .headline1 {
+        font-size: 60px;
+        line-height: 100pt;
+        padding-left: 10px;
+    }
+
+    .headline2{
+        text-transform: uppercase;
+        font-size: 90px;
+        font-weight: bold;
+        line-height: 20pt;
+        padding-left: 10px;
+    }
+
+    .headline3 {
+        font-size: 40px;
+        line-height: 60pt;
+        font-weight: 100;
+        padding-left: 10px;
+    }
+
+    .headline4 {
+        font-size: 25px;
+    }
+
+    .headline5 {
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+    .promo1 {
+        text-align: left;
+    }
+
+
+    .promo3 {
+        color: white;
+        font-size: 150px;
+        line-height: 100%;
+        top: -26vw;
+        right: -11vw;
+    }
+    #area_cupones{
+        margin-top: -9%;
+    }
+}
+
+@media only screen and (max-width: 2700px) {
+    .promo3 {
+        font-size: 180px;
+    }
+}
+
+@media only screen and (max-width: 2400px) {
+    .promo3 {
+        font-size: 150px;
+    }
+}
+
+@media only screen and (max-width: 2000px) {
+    .promo3 {
+        font-size: 130px;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .promo3 {
+        font-size: 150px;
+        right: -13vw;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .promo3 {
+        right: -13vw;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .promo3 {
+        right: -13vw;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #blueribbon {
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .promo1 {
+        text-align: left;
+    }
+    .promo3 {
+        font-size: 125px;
+    }
+}
+@media only screen and (max-width: 1025px) {
+    #blueribbon {
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .promo1 {
+        text-align: left;
+    }
+
+    .promo3 {
+        top: -27vw;
+        font-size: 120px;
+        right: -13vw;
+    }
+}
+@media only screen and (max-width: 992px) {
+    #logo_gsk{
+       margin-top: 30%;
+    }
+    #row_title_compra_mobile{
+        display: none;
+    }
+    #blueribbon {
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .headline1 {
+        font-size: 40px;
+        line-height: 65pt;
+        padding-left: 10px;
+    }
+
+    .headline2{
+        text-transform: uppercase;
+        font-size: 80px;
+        font-weight: bold;
+        line-height: 20pt;
+        padding-left: 10px;
+    }
+
+    .headline3 {
+        font-size: 30px;
+        line-height: 55pt;
+        font-weight: 100;
+        padding-left: 10px;
+    }
+
+    .headline4 {
+        font-size: 20px;
+    }
+
+    .headline5 {
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    .promo1 {
+        text-align: left;
+    }
+
+
+    .promo3 {
+        color: white;
+        font-size: 100px;
+        line-height: 100%;
+        top: -26vw;
+        right: -14vw;
+    }
+
+    .dataarea1 {
+        font-size: 18px !important;
+    }
+
+    .dataarea2 {
+        font-size: 18px !important;
+    }
+
+    #footerarea {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 820px) {
+    #nota_sobre_cupon {
+        line-height: 1.2;
+        font-size: 18px;
+        /*padding-left: 12%;
+        padding-right: 12%;*/
+    }
+    #nota_light {
+        margin-top: -3%;
+        font-size: 14px;
+    }
+    #logo_gsk{
+       margin-top: 30%;
+    }
+    #row_title_compra_mobile{
+        display: none;
+    }
+    .headline1 {
+        font-size: 38px;
+        line-height: 60pt;
+        padding-left: 10px;
+    }
+
+    .headline2{
+        text-transform: uppercase;
+        font-size: 75px;
+        font-weight: bold;
+        line-height: 20pt;
+        padding-left: 10px;
+    }
+
+    .headline3 {
+        font-size: 28px;
+        line-height: 50pt;
+        font-weight: 100;
+        padding-left: 10px;
+    }
+
+    .headline4 {
+        font-size: 20px;
+    }
+
+    .headline5 {
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    .promo1 {
+        text-align: left;
+        margin-left: 3vw;
+    }
+
+
+    .promo3 {
+        color: white;
+        font-size: 90px;
+        line-height: 100%;
+        top: -26vw;
+        right: -14vw;
+    }
+    .even h4{
+        font-size: 18px;
+    }
+    .even {
+        font-size: 12px !important;
+    }
+    .dataarea1 {
+        font-size: 18px !important;
+    }
+
+    .dataarea2 {
+        font-size: 18px !important;
+    }
+
+    #footerarea {
+        font-size: 16px;
+    }
+    #area_cupones {
+        margin-top: -8%;
+    }
+}
+@media only screen and (max-width: 769px) {
+    #nota_sobre_cupon {
+        line-height: 1.2;
+        margin-top: 0px;
+        /*padding-left: 12%;
+        padding-right: 12%;*/
+    }
+    #row_title_compra{
+        display: none;
+    }
+    #row_title_compra_mobile{
+        display: block;
+    }
+    .headline5 {
+        font-size: 25px;
+        line-height: 100%;
+    }
+    .headline1 {
+        font-size: 35px;
+        line-height: 45pt;
+        padding-left: 10px;
+    }
+    .headline2{
+        text-transform: uppercase;
+        font-size: 60px;
+        font-weight: bold;
+        line-height: 20pt;
+        padding-left: 10px;
+    }
+    .headline3 {
+        font-size: 22px;
+        line-height: 30pt;
+        font-weight: 100;
+        padding-left: 10px;
+    }
+    .headline4 {
+        font-size: 14px;
+    }
+    .even h4{
+        font-size: 14px;
+    }
+    .even {
+        font-size: 10px !important;
+    }
+
+    .dataarea1 {
+        font-size: 14px !important;
+    }
+
+    .dataarea2 {
+        font-size: 14px !important;
+    }
+
+    .promo3{
+        font-size: 90px;
+        top: -27vw;
+        right: -15vw;
+    }
+
+    #footerarea {
+        font-size: 15px;
+        margin-bottom: 2%;
+    }
+    #mainarea3 {
+        margin-top: 0%;
+    }
+    #area_cupones {
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    #nota_sobre_cupon {
+        line-height: 1.2;
+        /*padding-left: 12%;
+        padding-right: 12%;*/
+    }
+    #row_title_compra{
+        display: none;
+    }
+    #row_title_compra_mobile{
+        display: block;
+    }
+    .headline5 {
+        font-size: 25px;
+        line-height: 100%;
+    }
+    .headline1 {
+        font-size: 35px;
+        line-height: 45pt;
+        padding-left: 10px;
+    }
+    .headline2{
+        text-transform: uppercase;
+        font-size: 60px;
+        font-weight: bold;
+        line-height: 20pt;
+        padding-left: 10px;
+    }
+    .headline3 {
+        font-size: 22px;
+        line-height: 30pt;
+        font-weight: 100;
+        padding-left: 10px;
+    }
+    .headline4 {
+        font-size: 14px;
+    }
+    .even h4{
+        font-size: 14px;
+    }
+    .even {
+        font-size: 10px !important;
+    }
+
+    .dataarea1 {
+        font-size: 14px !important;
+    }
+
+    .dataarea2 {
+        font-size: 14px !important;
+    }
+
+    .promo3{
+        font-size: 80px;
+        top: -27vw;
+        right: -15vw;
+    }
+
+    #footerarea {
+        font-size: 14px;
+        margin-bottom: 2%;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+    .show_mobile_coupons{
+        display: block;
+    }
+    .hide_mobile_coupons{
+        display: none;
+    }
+    .bgleft{
+        background-image: url("../img-general/dataAreaB.png");
+    }
+    #row_cantidad_cupon {
+        margin-top: 5%;
+        margin-left: -5%;
+    }
+    #nota_sobre_cupon {
+        line-height: 1.2;
+        /*padding-left: 5%;
+        padding-right: 5%;*/
+    }
+    #row_title_compra{
+        display: none;
+    }
+    #row_title_compra_mobile{
+        display: block;
+    }
+    .headline5 {
+      font-size: 25px;
+      line-height: 100%;
+    }
+    .headline1 {
+      font-size: 25px;
+      line-height: 30pt;
+      padding-left: 10px;
+      margin-top: 1%;
+    }
+    .headline2 {
+      text-transform: uppercase;
+      font-size: 50px;
+      font-weight: bold;
+      line-height: 20pt;
+      padding-left: 10px;
+    }
+    .headline3 {
+      font-size: 18px;
+      line-height: 28pt;
+      font-weight: 100;
+      padding-left: 10px;
+    }
+    .even h4{
+        font-size: 12px;
+    }
+    .even {
+        font-size: 10px !important;
+    }
+    .dataarea1 {
+        font-size: 14px !important;
+    }
+    .dataarea2 {
+        font-size: 14px !important;
+    }
+    #footerarea {
+        font-size: 14px;
+        margin-bottom: 2%;
+    }
+    .promo3{
+        font-size: 80px;
+        top: -27vw;
+        right: -15vw;
+    }
+    .promo1 {
+        margin-left: 8vw;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    #nota_sobre_cupon {
+      /*padding-left: 5%;
+      padding-right: 5%;*/
+      font-size: 14px;
+    }
+    #nota_light {
+        margin-top: -5%;
+        font-size: 10px;
+    }
+    #row_title_compra{
+        display: none;
+    }
+    #row_title_compra_mobile{
+        display: block;
+    }
+
+    .headline1 {
+      font-size: 22px;
+      line-height: 22pt;
+      padding-left: 0px;
+      margin-top: 3%;
+    }
+    .headline2{
+      text-transform: uppercase;
+      font-size: 43px;
+      font-weight: bold;
+      line-height: 22pt;
+      padding-left: 0px;
+    }
+    .headline3 {
+      font-size: 16px;
+      line-height: 20pt;
+      font-weight: 100;
+      padding-left: 0px;
+    }
+    .headline4 {
+        font-size: 20px;
+    }
+    .headline5 {
+      font-size: 20px;
+      padding-left: 0px;
+    }
+    .promo3 {
+        color: white;
+        font-size: 70px;
+        line-height: 100%;
+        top: -27vw;
+        right: -15vw;
+    }
+    .even h4{
+      font-size: 12px;
+    }
+    .even {
+      font-size: 8px !important;
+    }
+
+    .dataarea1 {
+        font-size: 14px !important;
+    }
+
+    .dataarea2 {
+        font-size: 14px !important;
+    }
+    #footerarea {
+        font-size: 12px;
+        margin-bottom: 2%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    #nota_sobre_cupon {
+      /*padding-left: 0;
+      padding-right: 0;*/
+      font-size: 14px;
+    }
+    #nota_light {
+        margin-top: -5%;
+        font-size: 10px;
+    }
+    #row_title_compra{
+        display: none;
+    }
+    #row_title_compra_mobile{
+        display: block;
+    }
+
+    .headline5 {
+      font-size: 18px;
+      line-height: 100%;
+    }
+    .headline1 {
+      font-size: 18px;
+      line-height: 22pt;
+      padding-left: 0px;
+      margin-top: 3%;
+    }
+    .headline2{
+      text-transform: uppercase;
+      font-size: 35px;
+      font-weight: bold;
+      line-height: 22pt;
+      padding-left: 0px;
+    }
+    .headline3 {
+      font-size: 13px;
+      line-height: 20pt;
+      font-weight: 100;
+      padding-left: 0px;
+    }
+    .headline4 {
+        font-size: 20px;
+    }
+    .promo3 {
+      color: white;
+      font-size: 60px;
+      line-height: 100%;
+      top: -28vw;
+      right: -15vw;
+    }
+    .even h4{
+    font-size: 10px;
+    }
+    .even {
+      font-size: 6px !important;
+    }
+
+    .dataarea1 {
+        font-size: 12px !important;
+    }
+
+    .dataarea2 {
+        font-size: 12px !important;
+    }
+    #column-promo-logo{
+        margin-left: -14%; 
+        margin-right: 7%;
+    }
+    #footerarea {
+        font-size: 12px;
+        margin-bottom: 2%;
+    }
+}
+@media only screen and (max-width: 355px) {
+    .fixpos {
+        margin-bottom: 5%;
+        margin-top: 5%
+    }
+    #img_producto{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .hide_mobile{
+        display: none;
+    }
+    .margin_mobile{
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    #nota_sobre_cupon {
+        /*padding-left: 0;
+        padding-right: 0;*/
+        font-size: 12px;
+      }
+      #nota_light {
+        font-size: 9px;
+    }
+      #row_title_compra{
+          display: none;
+      }
+      #row_title_compra_mobile{
+          display: block;
+      }
+
+      .headline5 {
+        font-size: 14px;
+        line-height: 100%;
+      }
+      .headline1 {
+        font-size: 16px;
+        line-height: 12pt;
+        padding-left: 0px;
+        margin-top: 5%;
+      }
+      .headline2{
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 22pt;
+        padding-left: 0px;
+      }
+      .headline3 {
+        font-size: 11px;
+        line-height: 10pt;
+        font-weight: 100;
+        padding-left: 0px;
+      }
+      .promo3 {
+        color: white;
+        font-size: 50px;
+        line-height: 100%;
+      }
+      .even h4{
+      font-size: 10px;
+      }
+      .even {
+        font-size: 6px !important;
+      }
+
+      .dataarea1 {
+          font-size: 12px !important;
+      }
+
+      .dataarea2 {
+          font-size: 12px !important;
+      }
+      #footerarea {
+          font-size: 12px;
+          margin-bottom: 2%;
+      }
+      .promo1 {
+        margin-left: 10vw;
+    }
+}
+
+/*@media only screen and (max-width: 425px) {
+    #nota_sobre_cupon {
+        line-height: 1;
+        font-weight: bold;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    #row_title_compra{
+        display: none;
+    }
+    #row_title_compra_mobile{
+        display: block;
+    }
+    #row_title_compra_mobile .headline5 {
+        font-size: 35px;
+        line-height: 100%;
+        font-weight: 600;
+        margin-left: 15%;
+    }
+    .headline1 {
+        font-size: 40px;
+        line-height: 65pt;
+        padding-left: 10px;
+    }
+    .headline2{
+        text-transform: uppercase;
+        font-size: 80px;
+        font-weight: bold;
+        line-height: 20pt;
+        padding-left: 10px;
+    }
+    .headline3 {
+        font-size: 30px;
+        line-height: 55pt;
+        font-weight: 100;
+        padding-left: 10px;
+    }
+    .headline4 {
+        font-size: 20px;
+    }
+    .promo1 {
+        font-size: 50px;
+        margin-top: 10%;
+    }
+    .promo2 {
+        font-size: 260px;
+        line-height: 100%;
+    }
+    .even h4{
+        font-size: 24px;
+    }
+    .even {
+        font-size: 14px !important;
+    }
+
+    .dataarea1 {
+        font-size: 18px !important;
+    }
+
+    .dataarea2 {
+        font-size: 18px !important;
+    }
+    #footerarea {
+        font-size: 25px;
+        margin-bottom: 2%;
+    }
+}*/
+
+.headline1{
+    font-family: Akzidenz-grotesk-bold !important;
+}
+.headline2{
+    font-family: Akzidenz-grotesk-black !important;
+}
+.headline3{
+    font-family: Akzidenz-grotesk-roman !important;
+}
+.headline5{
+    font-family: Akzidenz-grotesk-bold !important;
+}
+.promo1{
+    font-family: Akzidenz-grotesk-bold !important;
+}
+#nota_sobre_cupon{
+    line-height: 1.2;
+    font-family: Akzidenz-grotesk-light;
+}
+#nota_light{
+    line-height: 1.2;
+    font-family: Akzidenz-grotesk-light;
+}
+.dataarea1 {
+    font-size: 22px;
+}
+
+.dataarea2 {
+    font-size: 22px;
+}
+
+body {
+    background-color: #FF662B;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainarea {
+    /*background-image: linear-gradient( #10B2EF, #F5FCFE);*/
+    /*background: linear-gradient(0deg, rgba(245,252,254,1) 0%, rgba(245,252,254,1) 45%, rgba(16,178,239,1) 100%);*/
+    background-color: #fff;
+    color: black;
+}
+
+#mainarea2 {
+    background-image: url("../img-general/tip.png");
+    background-size:100% 85%;
+    background-repeat: no-repeat;
+    color: black;
+    margin: -1px;
+}
+#mainarea3{
+    margin-top: 0%;
+}
+.roundedarea {
+    border: 2px solid #B3B3B3;
+    background-color: #fff;
+    border-radius: 20%;
+    color: black;
+    text-align: center;
+}
+
+.even {
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    line-height: 1.1;
+}
+.even h4{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.even p{
+    font-size: 14px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.center{
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 5%;
+}
+
+.brand {
+    display: block;
+    margin: auto;
+    padding-top: -5%;
+}
+
+.whithy {
+    color: white !important;
+}
+
+.red {
+    background-image: url("../img-general/redbody.png");
+    background-size: 95% 96%;
+    background-position:left;
+    background-repeat: no-repeat;
+    margin-left: -40px;
+}
+
+.lightblue {
+    background-image: url("../img-general/orangebody.png");
+    background-size: 95% 96%;
+    background-position:left;
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    min-height: 25vw;
+}
+.clear_background{
+    background-size: 95% 96%;
+    margin-left: -40px;
+}
+
+.lightblue {
+    background-image: url("../img-general/orangebody.png");
+    background-size: 95% 96%;
+    background-position:left;
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    min-height: 25vw;
+}
+
+.percenthighligth {
+    font-size: 50px;
+    vertical-align: top;
+
+    line-height: 90%;
+}
+
+.numberhighligth {
+    font-size: 200px;
+    vertical-align: top;
+    line-height: 90%;
+}
+#footerarea {
+    font-family: Arial, Helvetica, sans-serif !important;
+    line-height: 120%;
+    margin-top: 2%;
+}
+#footerarea img {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#img_sello{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: -1%;
+    margin-left: 5%;
+}
+.footer-bold{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer-light{
+    font-weight: lighter;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .no-gutters .col [class*="col-"] {
+    padding-right: 0;
+      padding-left: 0;
+  }
+@font-face {
+    font-family: Akzidenz-grotesk-black;
+    src: url("../fonts/Akzidenz-grotesk-black.ttf");
+}
+@font-face {
+    font-family: Akzidenz-grotesk-bold;
+    src: url("../fonts/Akzidenz-grotesk-bold.ttf");
+}
+
+@font-face {
+    font-family: Akzidenz-grotesk-light;
+    src: url("../fonts/Akzidenz-grotesk-light.ttf");
+}
+
+@font-face {
+    font-family: Akzidenz-grotesk-roman;
+    src: url("../fonts/Akzidenz-grotesk-roman.ttf");
+}
